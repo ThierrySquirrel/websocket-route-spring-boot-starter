@@ -55,7 +55,6 @@ public class HttpServerHandshakeFactory {
         Map<String, String> uriParamMap = UriFactory.getUriParamMap (requestUri);
         HttpRequestMessage requestMessage = HttpRequestMessageBuilder.builderHttpRequestMessage (requestUri, uriParamMap, headers);
         return relayTemplate.relay (requestMessage);
-
     }
 
     public static Channel clientChannelUpgrade(HttpUpgradeMessage upgradeMessage, Channel serverChannel, int maxFramePayloadLength, int readTimeoutMilli) throws WebsocketRouteException {
