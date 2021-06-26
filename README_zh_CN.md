@@ -20,7 +20,7 @@ Websocket Route Spring Book Edition
         <dependency>
             <artifactId>websocket-route-spring-boot-starter</artifactId>
             <groupId>com.github.thierrysquirrel</groupId>
-            <version>1.1.0.3-RELEASE</version>
+            <version>1.1.0.4-RELEASE</version>
         </dependency>
 ``` 
 
